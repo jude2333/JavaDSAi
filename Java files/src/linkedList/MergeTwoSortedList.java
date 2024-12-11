@@ -75,7 +75,7 @@ public class MergeTwoSortedList {
 
         Node mergedHead = mergeTwoSortedList.merge(head, head2);
         mergeTwoSortedList.printList(mergedHead); // Print the merged list
-    }
+    }   
 }
 
 

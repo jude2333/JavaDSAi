@@ -1,3 +1,5 @@
+package Arrays;
+
 public class Anagram {
     public boolean validAnagram(String s, String t){
 
@@ -6,7 +8,6 @@ public class Anagram {
         }
 
         int[] countTotal = new int[26];
-        int[] countT = new int[26];
 
         for(int i=0;i<s.length();i++){
 
@@ -15,7 +16,6 @@ public class Anagram {
 
             countTotal['z' - charS] ++;
             countTotal['z' - charT] --;
-
             
         }
 
